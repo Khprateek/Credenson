@@ -1,0 +1,24 @@
+.menu{
+    img{
+        width: 28px;
+        height: 28px;
+        cursor: pointer;
+    }
+    .sidedrop{
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        position: absolute;
+        background-color: black;
+        color: white;
+        left: 0;
+        top: 3rem;
+        width: 100%;
+        height: calc(100vh - 3rem);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        z-index: 20;
+    }
+}
