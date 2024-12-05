@@ -7,8 +7,8 @@ const ProductList = () =>{
         <div className='container'>
         <Link className="links" href="/test">
             <div className="im0">
-                <Image className="im1" src="/Images/Homepages/mikasa.png" alt="mikasa" fill sizes="25vw"/>
-                <Image className="im2" src="/Images/Homepages/tittan1.png" alt="tatan" fill sizes="25vw"/>
+                <Image className="im1" src="/Images/Products/Men/1.jpg" alt="mikasa" fill sizes="25vw"/>
+                <Image className="im2" src="/Images/Products/Men/1.jpg" alt="tatan" fill sizes="25vw"/>
             </div>
             <div className="details">
                 <span className="productname">Product name</span>
@@ -31,7 +31,7 @@ const ProductList = () =>{
                 <span className="productcost">$500</span>
             </div>
             <div className="description">
-                I just want to write the description of the product
+                Write the Description of the product
             </div>
             <div className="add2cart">
                 Add to Cart
